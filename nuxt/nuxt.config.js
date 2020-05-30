@@ -70,6 +70,9 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    vendor: [
+        'socket.io-client'
+    ],
     extend (config, ctx) {
     }
   }
