@@ -4,7 +4,7 @@ services:
     build: ./nuxt
     command: yarn run dev
     volumes:
-      - ./nuxt:/nuxt
+      - ../src/nuxt:/nuxt
     ports:
       - "3000:3000"
       - "9229:9229"
